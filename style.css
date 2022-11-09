@@ -1,0 +1,23 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.display-4 {
+    margin: 10px;
+    padding: 10px;
+}
+.sub {
+    margin-top: -2em;
+}
+
+.cho-container :hover {
+    scale: 1.1;
+}
